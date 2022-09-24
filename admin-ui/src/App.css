@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+tbody {
+  font-size: 14px;
+  color: rgb(40, 35, 35, 0.8);
+}
+td {
+  line-height: 35px;
+}
+
+#modal-cancel {
+  font-size: 1.3rem;
+}
+.modal-footer {
+  padding: 16px;
+}
+.modal-dialog {
+  font-size: 16px;
+  font-weight: 400;
+}
+.progress {
+  position: relative;
+  top: 200px;
+}
+.input-check {
+  border: 2px groove;
+}
+.page-link{
+  cursor: pointer;
+}
+@media (max-width: 600px) {
+  .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+}
